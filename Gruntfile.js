@@ -114,11 +114,11 @@ module.exports = function(grunt) {
     open: {
       debug: {
         path: 'http://127.0.0.1:8080/debug?port=5858',
-        app: 'Google Chrome'
+        app: 'google-chrome'
       },
       platoReport: {
         path: './plato/index.html',
-        app: 'Google Chrome'
+        app: 'google-chrome'
       }
     },
     plato: {
@@ -134,7 +134,9 @@ module.exports = function(grunt) {
     jshint: {
       files: ['*.js', 'lib/**/*.js', 'test/**/*.js'],
       options: {
-        jshintrc: true
+        jshintrc: true,
+	stdout: true,
+        stderr: true
       }
     },
   });

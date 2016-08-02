@@ -1,0 +1,21 @@
+[4mRunning "env:local" (env) task[24m
+
+[4mRunning "concurrent:serve" (concurrent) task[24m
+    [4mRunning "watch" task[24m
+    Waiting...
+    [4mRunning "nodemon:dev" (nodemon) task[24m
+    [33m[nodemon] v1.0.20[39m
+    [33m[nodemon] to restart at any time, enter `rs`[39m
+    [33m[nodemon] watching: *.*[39m
+    [32m[nodemon] starting `node application.js`[39m
+    [32m[nodemon] restarting due to changes...[39m
+    [32m[nodemon] starting `node application.js`[39m
+    [32m>> [39mFile "lib/users.js" changed.
+    [36mCompleted in 0.000s at Mon Aug 01 2016 23:08:30 GMT-0400 (EDT)[39m - Waiting...
+
+
+Execution Time (2016-08-02 03:08:03 UTC)
+loading tasks     542ms  ▇ 1%
+concurrent:serve    52s  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 99%
+Total 52.6s
+

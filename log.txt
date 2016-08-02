@@ -1,0 +1,13 @@
+[4mRunning "env:local" (env) task[24m
+
+[4mRunning "concurrent:serve" (concurrent) task[24m
+    [4mRunning "nodemon:dev" (nodemon) task[24m
+    [4mRunning "watch" task[24m
+    Waiting...
+    [33m[nodemon] v1.0.20[39m
+    [33m[nodemon] to restart at any time, enter `rs`[39m
+    [33m[nodemon] watching: *.*[39m
+    [32m[nodemon] starting `node application.js`[39m
+    [32m[nodemon] restarting due to changes...[39m
+    [32m[nodemon] restarting due to changes...[39m
+    [32m[nodemon] starting `node application.js`[39m

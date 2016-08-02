@@ -8,7 +8,10 @@
     "express": "~4.0.0",
     "fh-bunyan": "^0.2.0",
     "fh-mbaas-api": "5.12.0",
-    "request": "~2.40.0"
+    "log": "^1.4.0",
+    "loglevel": "^1.4.1",
+    "request": "~2.40.0",
+    "winston": "^2.2.0"
   },
   "devDependencies": {
     "bluebird": "^3.4.1",
@@ -19,6 +22,7 @@
     "grunt-contrib-jshint": "^0.11.3",
     "grunt-contrib-watch": "latest",
     "grunt-env": "~0.4.1",
+    "grunt-legacy-log": "^1.0.0",
     "grunt-node-inspector": ">=0.2.0",
     "grunt-nodemon": "0.2.0",
     "grunt-open": "~0.2.3",
